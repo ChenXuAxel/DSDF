@@ -1,0 +1,10 @@
+# Linux x86-64, CPython 3.10, PyTorch 2.5.1+cu121 (CXX11 ABI 0).
+# Install the cu121 build of torch first, as shown in the README.
+torch==2.5.1+cu121
+triton==3.1.0
+numpy==2.2.6
+rasterio==1.4.3
+einops==0.8.1
+transformers==4.39.3
+causal-conv1d @ https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.0/causal_conv1d-1.6.0%2Bcu12torch2.5cxx11abiFALSE-cp310-cp310-linux_x86_64.whl#sha256=c62069e8061c03b16fb4935fced1e01615788df33aac4dc419f4bc143a10a08e
+mamba-ssm @ https://github.com/state-spaces/mamba/releases/download/v2.2.6.post3/mamba_ssm-2.2.6.post3%2Bcu12torch2.5cxx11abiFALSE-cp310-cp310-linux_x86_64.whl#sha256=b69c3789b91a41d89a1e87167500b0473c22f98a77e338c60f4c1412d0127950
